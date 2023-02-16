@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+main{
+  width: 80%;
+  float: left;
+  padding-top: 50px;
+}
+.title-1{
+  color: rgb(332, 0, 97);
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.testo-1{
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 100px;
+padding-right: 100px;}
+.card{
+ width: 150px;
+ height: 150px;
+ padding-left: 100px ;
+}
+.box{
+  width: 50px;
+  height: 80px;
+}
