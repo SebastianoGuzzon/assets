@@ -1,39 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Floating Cards</title>
-</head>
-  <body>
-    <header>
-      
-      <h1 class="title-1">Meet Our Team</h1>
-      
-      <div class="testo-1"> 
-          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, debitis esse dolor harum reprehenderit quos, expedita optio eum beatae est quis odio. Est, impedit. Obcaecati sequi atque ipsa natus animi.
-          </p>
-      </div>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Team Cards Witrh Float</title>
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-    <main>
-      <div class="box">
-        <div class="card-row">
-              <img src="img/male1.png" alt="MarcoBianchi">
-              <div class="image-row">
-                <img class="image" src="img/male1.png" alt="Image 1">
-                <img class="image" src="img/male2.png" alt="Image 2">
-                <img class="image" src="image3.jpg" alt="Image 3">
-                <img class="image" src="image4.jpg" alt="Image 4">
-              </div>
-        </div>
-      </div>
-    </main>
-          
-  </body>
+    <body>
+
+        <main class="container">
+            <h1>Meet Our Team</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam libero dolore veritatis in, a placeat architecto culpa dolores deserunt ipsum iste quidem praesentium sed eveniet earum ex optio incidunt assumenda!
+            </p>
+
+            <div class="row clearfix">
+                
+                <div class="col">
+
+                    <div class="card clearfix">
+                        <img src="img/male1.png" alt="" class="avatar">
+                        <div class="contents">
+                            <h3 class="name">marco bianchi</h3>
+                            <span class="position">designer</span>
+                            <a href="#">marco@bianchi.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <div class="card clearfix">
+                        <img src="img/female1.png" alt="avatar" class="avatar">
+                        <div class="contents">
+                            <h3 class="name">Laura Rossi</h3>
+                            <span class="position">Front-end Developer</span>
+                            <a href="#">laurarossi@team.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col ">
+
+                    <div class="card clearfix">
+                        <img src="img/male2.png" alt="" class="avatar">
+                        <div class="contents">
+                            <h3 class="name">Giorgio Verdi</h3>
+                            <span class="position">Back-end Developer</span>
+                            <a href="#">giorgioverdi@team.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col ">
+
+                    <div class="card clearfix">
+                        <img src="img/female2.png" alt="avatar" class="avatar">
+                        <div class="contents">
+                            <h3 class="name">Marta Ipsum</h3>
+                            <span class="position">SEO Specialist</span>
+                            <a href="#">martaipsum@team.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col ">
+
+                    <div class="card clearfix">
+                        <img src="img/male3.png" alt="" class="avatar">
+                        <div class="contents">
+                            <h3 class="name">Roberto Lorem</h3>
+                            <span class="position">Project Manager</span>
+                            <a href="#">robertolorem@team.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col ">
+
+                    <div class="card clearfix">
+                        <img src="img/female3.png" alt="avatar" class="avatar">
+                        <div class="contents">
+                            <h3 class="name">Daniela Amet</h3>
+                            <span class="position">Analyst</span>
+                            <a href="#">danielaamet@team.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+
+
+        <footer>
+            <p>by Ugo de Ughi</p>
+        </footer>
+
+
+       
+    </body>
 </html>

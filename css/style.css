@@ -1,33 +1,103 @@
 *{
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
 body{
   font-family: 'Fredoka', sans-serif;
+  background-color: #FFFFFE;
+  color: #0F0E17;
+  font-size: 18px;
 }
-main{
-  width: 80%;
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.debug{
+  background-color: rgba(255,0,0, .25);
+  border: 1px solid black;
+}
+
+.container{
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container h1{
+  text-align: center;
+  color: #E53170;
+  font-size: 40px;
+  margin: 50px 0;
+}
+
+.container p{
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 16px;
+}
+
+.container .row .col{
   float: left;
-  padding-top: 50px;
+  width: calc(100% / 3);
+  padding: 0 16px;
+  margin-bottom: 50px;
+  min-width: 314px;
 }
-.title-1{
-  color: rgb(332, 0, 97);
-  text-align: center;
-  margin-top: 50px;
-  padding-bottom: 50px;
-}
-.testo-1{
-  text-align: center;
-  vertical-align: middle;
-  padding-left: 100px;
-padding-right: 100px;}
+
 .card{
- width: 150px;
- height: 150px;
- padding-left: 100px ;
+  background-color: #0F0E17;
+  box-shadow: 0px 0px 15px rgba(0,0,0,.5);
 }
-.box{
-  width: 50px;
-  height: 80px;
+
+.card .avatar,
+.card .contents{
+  float: left;
+}
+
+.card .contents{
+  padding-top: 10px;
+}
+
+.card .avatar{
+  width: 100px;
+  margin-right: 15px;
+}
+
+.card .contents .name{
+  text-transform: uppercase;
+}
+
+.card .contents h3,
+.card .contents .position{
+  color: #FFFFFE;
+  margin-bottom: 5px;
+}
+
+
+.card .contents .position{
+  display: block;
+  text-transform: capitalize;
+}
+
+.card .contents a{
+  color: #64B9DD;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.card .contents a:hover{
+  text-decoration: underline;
+}
+
+footer p{
+  padding: 15px;
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  font-size: .8rem;
 }
